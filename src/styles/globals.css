@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: rgba(17, 24, 39);
+}
+
+input {
+  color: black;
+  border-radius: 5px;
+}
+
+.marker-active {
+  z-index: 1;
+}
